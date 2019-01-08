@@ -8,6 +8,7 @@
         <module>consumer-order</module>
         <module>registry</module>
         <module>consumer_order</module>
+        <module>provider_user2</module>
     </modules>
 
     <!--声明为springboot项目-->
