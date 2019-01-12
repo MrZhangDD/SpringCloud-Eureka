@@ -17,7 +17,7 @@ eureka:
    #   fetch-registry: false
     service-url:
       #curl风格
-      defaultZone: http://user:password123@localhost:8763/eureka
+      defaultZone: http://user:password123@localhost:8763/eureka,http://user:password123@localhost:8761/eureka
   instance:
     prefer-ip-address: true  #在eureka中显示ip
     hostname: peer2
