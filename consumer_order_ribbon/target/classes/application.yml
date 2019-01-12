@@ -1,0 +1,15 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consumer-user-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true  #在eureka中显示ip
+
+logging:
+  level:
+    root: INFO

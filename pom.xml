@@ -5,9 +5,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>provider_user</module>
-        <module>consumer-order</module>
         <module>registry</module>
+        <module>registry_high</module>
         <module>consumer_order</module>
+        <module>consumer_order_ribbon</module>
+        <module>consumer_order_ribbon_config</module>
         <module>provider_user2</module>
     </modules>
 

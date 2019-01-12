@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: EUREKA-1
+  profiles:
+    active: peer1
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      #curl风格
+      defaultZone: http://user:password123@localhost:8762/eureka
+  instance:
+    prefer-ip-address: true  #在eureka中显示ip
+    hostname: peer1
+logging:
+  level:
+    root: INFO
