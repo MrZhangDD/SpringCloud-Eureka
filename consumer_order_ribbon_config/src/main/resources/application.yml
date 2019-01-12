@@ -21,3 +21,4 @@ PROVIDER-USER:
 #ribbon:
  # eureka:
  #   enabled: false
+#配置文件properties负载均衡
